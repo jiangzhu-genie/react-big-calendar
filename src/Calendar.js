@@ -766,6 +766,7 @@ class Calendar extends React.Component {
         dateCellWrapper: NoopWrapper,
         weekWrapper: NoopWrapper,
         timeSlotWrapper: NoopWrapper,
+        timeSlotGroupWrapper: NoopWrapper,
       }),
       accessors: {
         start: wrapAccessor(startAccessor),
